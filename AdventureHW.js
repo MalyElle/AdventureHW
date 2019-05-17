@@ -15,8 +15,6 @@ else{
     console.log('GO AND PAY SOME DANG ATTENTION TO YOUR HOMEWORK!');
 }
 
-var pass = 'You have PASS the test, now you can move on to YOUR NEW NAME'
-    console.log(pass);
 
 function nameGenerator() {
     var anyNum1 = Math.floor(Math.random() * 5);
@@ -36,7 +34,7 @@ function nameGenerator() {
         'Vang'
     ];
     var fullName = firstNames[anyNum1] + ' ' + lastNames[anyNum2];
-    console.log(fullName);
+    console.log('your name is' + fullName);
 }
 
 nameGenerator();
@@ -46,3 +44,4 @@ var luck = 'Good Luck Young One'
 
 var journey = 'Your Journey have just STARTED!'
     console.log(journey);
+
